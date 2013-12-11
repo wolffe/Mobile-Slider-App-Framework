@@ -55,25 +55,6 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
     margin: 8px 16px;
 }
 
-.form {
-    margin: 8px 16px;
-}
-
-.form input[type="submit"] {
-    background-color: #EC2C23;
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding: 8px;
-    font-family: "gotham_boldregular", sans-serif;
-    border: 0;
-    color: #ffffff;
-    display: block;
-    width: 100%;
-    white-space: normal;
-}
-
 .quote { margin: 16px 32px 16px 16px; }
 .quotemark {
     opacity: 0.5;
@@ -122,19 +103,3 @@ and (max-device-width : 1024px)  {
     .digit { font-size: 360px; line-height: 360px; }
     .winner { float: left; }
 
-    .form input[type="submit"] {
-        background-color: #EC2C23;
-        font-family: inherit;
-        font-size: 24px;
-        line-height: 32px;
-        text-transform: uppercase;
-        padding: 16px;
-        font-family: "gotham_boldregular", sans-serif;
-        border: 0;
-        color: #ffffff;
-        display: block;
-        width: 100%;
-        white-space: normal;
-    }
-
-}
