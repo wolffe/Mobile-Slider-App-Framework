@@ -1,0 +1,140 @@
+@import url('../fonts/gotham/stylesheet.css');
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+body {
+    background-color: #333333;
+    font-family: "gotham_bookregular", sans-serif;
+    margin: 0;
+    position: relative;
+    height: 100%;
+}
+
+b, strong { font-family: "gotham_boldregular", sans-serif; }
+
+.orange { background-color: #F38022; }
+.blue { background-color: #04B2CF; }
+.red { background-color: #EC2C23; }
+.green { background-color: #b3d300; }
+
+.digit {
+    font-family: "gotham_blackregular", sans-serif;
+    font-size: 256px;
+    line-height: 256px;
+    text-transform: uppercase;
+    color: #FFF100;
+    margin: 16px;
+}
+.yellow {
+    color: #FFF100;
+}
+
+.logo { background-color: #FFFFFF; padding: 8px 16px; }
+.logo img { width: 320px; }
+
+.splash { margin: 0 16px; }
+.splash img { width: 100%; max-width: 768px; padding: 8px 0; }
+
+.breadcrumb {
+    font-family: "gotham_bookregular", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 8px 16px;
+}
+.author {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 8px 16px;
+}
+
+.form {
+    margin: 8px 16px;
+}
+
+.form input[type="submit"] {
+    background-color: #EC2C23;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 8px;
+    font-family: "gotham_boldregular", sans-serif;
+    border: 0;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    white-space: normal;
+}
+
+.quote { margin: 16px 32px 16px 16px; }
+.quotemark {
+    opacity: 0.5;
+    font-size: 72px;
+    line-height: 72px;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: "gotham_blackregular", sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 16px;
+}
+h2 {
+    font-family: "gotham_bookregular", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 16px;
+    line-height: 20px;
+}
+
+.clearfix { clear: both; }
+
+.winner { margin: 16px; }
+.winner img { width: 100%; max-width: 768px; height: auto; padding: 8px 0; }
+.winner span { position: relative; display: block; width: auto; background-color: #EC2C23; white-space: nowrap; padding: 4px 8px; margin-top: -50px; }
+
+.swiper-container { width: 100%; height: 100%; }
+.swiper-slide { width: 100%; overflow: auto; }
+
+.pagination { position: absolute; z-index: 20; left: 10px; bottom: 10px; }
+.swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 16px; background-color: #222222; margin-right: 5px; opacity: 0.8; border: 1px solid #ffffff; cursor: pointer; }
+.swiper-visible-switch { background-color: #aaaaaa; }
+.swiper-active-switch { background-color: #ffffff; }
+
+/* take that, responsiveness! */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    h1 { font-size: 36px; }
+    h2 { font-size: 20px; line-height: 28px; }
+    .breadcrumb { font-size: 22px; }
+
+    .digit { font-size: 360px; line-height: 360px; }
+    .winner { float: left; }
+
+    .form input[type="submit"] {
+        background-color: #EC2C23;
+        font-family: inherit;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: uppercase;
+        padding: 16px;
+        font-family: "gotham_boldregular", sans-serif;
+        border: 0;
+        color: #ffffff;
+        display: block;
+        width: 100%;
+        white-space: normal;
+    }
+
+}
