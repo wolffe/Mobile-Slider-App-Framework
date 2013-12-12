@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.msaf.phonegap"
-        version   = "1.4">
+        version   = "1.5">
 
     <name>Mobile Slider App Framework</name>
 
