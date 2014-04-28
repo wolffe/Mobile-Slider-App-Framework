@@ -1,0 +1,5 @@
+= 1.7 =
+
+* VERSION: Updated PhoneGap to 3.4.0
+* IMPROVEMENT: Tweaked config.xml
+* IMPROVEMENT: Updated swiper to version 2.6.0
